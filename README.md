@@ -1,3 +1,11 @@
+# Why this fork?
+
+https://github.com/scottrippey/next-router-mock does not support Next 13's new App Router `next/navigation`
+
+A PR exists https://github.com/scottrippey/next-router-mock/pull/103 but has not been released
+and does not contain the dist directory (dist directory is generated when publishing the npm package)
+
+This fork takes this PR and adds the dist directory
 
 # `next-router-mock`
 
